@@ -10,12 +10,35 @@ body {
   font-size: 15px;
   align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   margin: 0;
   min-height: 100vh;
   font-family: "Big Shoulders Display", cursive;
   font-family: "Lexend Deca", sans-serif;
+  text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sedan-card, .suv-card, .luxury-card {
+    width: 300px;
+    height: 500px;
+}
+
+.sedan-card {
+    background-color: var(--bright-orange);
+}
+
+.suv-card {
+    background-color: var(--dark-cyan);
+}
+
+.luxury-card {
+    background-color: var(--very-dark-cyan);
 }
 
 .attribution {
