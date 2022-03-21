@@ -17,28 +17,61 @@ body {
   font-family: "Big Shoulders Display", cursive;
   font-family: "Lexend Deca", sans-serif;
   text-align: left;
+  background-color: var(--very-light-grey);
+}
+
+button {
+  background-color: var(--very-light-grey);
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.sedan-card, .suv-card, .luxury-card {
-    width: 300px;
-    height: 500px;
+.sedan-card,
+.suv-card,
+.luxury-card {
+  width: 200px;
+  height: 400px;
+  padding: 35px;
 }
 
 .sedan-card {
-    background-color: var(--bright-orange);
+  background-color: var(--bright-orange);
 }
 
 .suv-card {
-    background-color: var(--dark-cyan);
+  background-color: var(--dark-cyan);
 }
 
 .luxury-card {
-    background-color: var(--very-dark-cyan);
+  background-color: var(--very-dark-cyan);
+}
+
+.card-title {
+  font-size: 40px;
+  font-family: "Big Shoulders Display", cursive;
+  color: var(--very-light-grey);
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  color: var(--tranparent-white);
+}
+
+.sedan-button {
+  color: var(--bright-orange);
+}
+
+.suv-button {
+  color: var(--dark-cyan);
+}
+
+.luxury-button {
+  color: var(--very-dark-cyan);
 }
 
 .attribution {
