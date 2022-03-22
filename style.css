@@ -103,3 +103,20 @@ button:hover {
 .attribution a {
   color: var(--bright-orange);
 }
+
+@media (max-width: 920px) {
+  .container {
+      display: flex;
+     flex-direction: column;
+     margin: 70px 0px;
+  }
+
+  .sedan-card {
+    border-radius: 9px 9px 0px 0px;
+  }
+
+  .luxury-card {
+    border-radius: 0px 0px 9px 9px;
+  }
+}
+
