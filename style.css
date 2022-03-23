@@ -1,144 +1,144 @@
 :root {
-  --bright-orange: hsl(31, 77%, 52%);
-  --dark-cyan: hsl(184, 100%, 22%);
-  --very-dark-cyan: hsl(179, 100%, 13%);
-  --tranparent-white: hsla(0, 0%, 100%, 0.75);
-  --very-light-grey: hsl(0, 0%, 95%);
+	--bright-orange: hsl(31, 77%, 52%);
+	--dark-cyan: hsl(184, 100%, 22%);
+	--very-dark-cyan: hsl(179, 100%, 13%);
+	--tranparent-white: hsla(0, 0%, 100%, 0.75);
+	--very-light-grey: hsl(0, 0%, 95%);
 }
 
 body {
-  font-size: 15px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0;
-  min-height: 100vh;
-  font-family: "Big Shoulders Display", cursive;
-  font-family: "Lexend Deca", sans-serif;
-  text-align: left;
-  background-color: var(--very-light-grey);
+	font-size: 15px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+	font-family: "Big Shoulders Display", cursive;
+	font-family: "Lexend Deca", sans-serif;
+	text-align: left;
+	background-color: var(--very-light-grey);
 }
 
 button {
-  background-color: var(--very-light-grey);
-  position: relative;
-  bottom: -45px;
-  border: solid 2px white;
-  border-radius: 25px;
-  padding: 12px 32px;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: "Lexend Deca", sans-serif;
-  margin-bottom: 40px;
+	background-color: var(--very-light-grey);
+	position: relative;
+	bottom: -45px;
+	border: solid 2px white;
+	border-radius: 25px;
+	padding: 12px 32px;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Lexend Deca", sans-serif;
+	margin-bottom: 40px;
 }
 
 button:hover {
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .sedan-card,
 .suv-card,
 .luxury-card {
-  width: 200px;
-  height: 400px;
-  padding: 52px;
+	width: 200px;
+	height: 400px;
+	padding: 52px;
 }
 
 .sedan-card {
-  background-color: var(--bright-orange);
-  border-radius: 9px 0px 0px 9px;
+	background-color: var(--bright-orange);
+	border-radius: 9px 0px 0px 9px;
 }
 
 .suv-card {
-  background-color: var(--dark-cyan);
+	background-color: var(--dark-cyan);
 }
 
 .luxury-card {
-  background-color: var(--very-dark-cyan);
-  border-radius: 0px 9px 9px 0px;
+	background-color: var(--very-dark-cyan);
+	border-radius: 0px 9px 9px 0px;
 }
 
 .card-title {
-  font-size: 40px;
-  font-family: "Big Shoulders Display", cursive;
-  color: var(--very-light-grey);
-  position: relative;
-  top: -5px;
+	font-size: 40px;
+	font-family: "Big Shoulders Display", cursive;
+	color: var(--very-light-grey);
+	position: relative;
+	top: -5px;
 }
 
 .card-description {
-  font-size: 15px;
-  line-height: 25px;
-  font-weight: 100;
-  color: var(--tranparent-white);
-  position: relative;
-  top: -19px;
-  font-family: "Lexend Deca", sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 100;
+	color: var(--tranparent-white);
+	position: relative;
+	top: -19px;
+	font-family: "Lexend Deca", sans-serif;
 }
 
 .sedan-button {
-  color: var(--bright-orange);
+	color: var(--bright-orange);
 }
 
 .suv-button {
-  color: var(--dark-cyan);
+	color: var(--dark-cyan);
 }
 
 .luxury-button {
-  color: var(--very-dark-cyan);
+	color: var(--very-dark-cyan);
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
+	font-size: 11px;
+	text-align: center;
 }
 .attribution a {
-  color: var(--bright-orange);
+	color: var(--bright-orange);
 }
 
 @media (max-width: 920px) {
-  button {
-    position: relative;
-    top: -20px;
-  }
+	button {
+		position: relative;
+		top: -20px;
+	}
 
-  .container {
-    display: flex;
-   flex-direction: column;
-   margin: 70px 0px;
- }
+	.container {
+		display: flex;
+		flex-direction: column;
+		margin: 70px 0px;
+	}
 
-  .sedan-card, .suv-card, .luxury-card {
-    width: 235px;
-    height: 340px;
-    padding: 45px;
-  }
+	.sedan-card,
+	.suv-card,
+	.luxury-card {
+		width: 235px;
+		height: 340px;
+		padding: 45px;
+	}
 
-  .sedan-card {
-    border-radius: 9px 9px 0px 0px;
-  }
+	.sedan-card {
+		border-radius: 9px 9px 0px 0px;
+	}
 
-  .luxury-card {
-    border-radius: 0px 0px 9px 9px;
-  }
+	.luxury-card {
+		border-radius: 0px 0px 9px 9px;
+	}
 
-  .card-title {
-    position: relative;
-    top: -15px;
-  }
+	.card-title {
+		position: relative;
+		top: -15px;
+	}
 
-  .card-description {
-    position: relative;
-    top: -30px;
-  }
- 
+	.card-description {
+		position: relative;
+		top: -30px;
+	}
 }
-
