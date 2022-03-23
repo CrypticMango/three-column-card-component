@@ -105,10 +105,21 @@ button:hover {
 }
 
 @media (max-width: 920px) {
+  button {
+    position: relative;
+    top: -20px;
+  }
+
   .container {
-      display: flex;
-     flex-direction: column;
-     margin: 70px 0px;
+    display: flex;
+   flex-direction: column;
+   margin: 70px 0px;
+ }
+
+  .sedan-card, .suv-card, .luxury-card {
+    width: 235px;
+    height: 340px;
+    padding: 45px;
   }
 
   .sedan-card {
@@ -118,5 +129,16 @@ button:hover {
   .luxury-card {
     border-radius: 0px 0px 9px 9px;
   }
+
+  .card-title {
+    position: relative;
+    top: -15px;
+  }
+
+  .card-description {
+    position: relative;
+    top: -30px;
+  }
+ 
 }
 
